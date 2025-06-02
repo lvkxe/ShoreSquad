@@ -1,0 +1,22 @@
+{
+  "extends": ["eslint:recommended"],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "serviceworker": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "prefer-const": "error",
+    "no-var": "error"
+  },
+  "globals": {
+    "app": "readonly",
+    "ShoreSquadApp": "readonly"
+  }
+}
